@@ -1,10 +1,16 @@
 {
   "name": "workspace",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "project for piksel",
-  "keywords": ["project"],
+  "keywords": [
+    "project"
+  ],
   "author": "funxdata",
   "type": "web",
+  "dependencies-sys": {
+    "workspace_lib": "1.0.1",
+    "info_lib": "0.1.0"
+  },
   "dependencies-web": {},
   "exports": {
     "./assets/project_project_0_0_1.js": "project.js",
@@ -12,5 +18,7 @@
     "./assets/project_setting_0_0_1.js": "setting.js",
     "./src/setup.ts": "setup.ts"
   },
-  "init":["./setup.ts"]
+  "init": [
+    "./setup.ts"
+  ]
 }
